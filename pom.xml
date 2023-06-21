@@ -76,6 +76,11 @@
             <artifactId>springfox-data-rest</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-core</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -87,7 +92,7 @@
                 <configuration>
                     <excludes>
                         <exclude>
-                            <groupId>org.projectlombok</groupId>
+                            <groupId>org.projectors</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
